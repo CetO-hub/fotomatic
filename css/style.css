@@ -321,7 +321,12 @@ header .mobile {
   }
 
   .feature .content {
-    margin-top: 2rem;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+  }
+
+  .feature h3 {
+    line-height: 1.4;
   }
 }
 
@@ -378,6 +383,7 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
+    display: flex;
   }
 
   #filters-section .extra {
@@ -413,15 +419,21 @@ header .mobile {
     padding: 1.875rem 0.625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
+  }
+
+  .content.center {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
   }
 }
 
