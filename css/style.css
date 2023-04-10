@@ -55,7 +55,7 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  flex-direction: column;
+
   padding: 1.875rem;
 }
 
@@ -159,6 +159,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-left: 6.25rem;
+  margin-top: 10.625rem;
 }
 
 #sign-up-cta .content {
@@ -210,6 +212,8 @@ header .mobile {
     background-color: transparent;
     border: none;
     overflow: hidden;
+    margin-left: 0;
+    margin-top: 0;
   }
 
   #sign-up-cta .content {
