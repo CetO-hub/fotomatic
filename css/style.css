@@ -272,6 +272,13 @@ header .mobile {
   background-color: white;
 }
 
+.feature .content {
+  height: 11.68rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .feature .image-container {
   width: 90%;
   height: 65%;
@@ -283,6 +290,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  line-height: 1.2;
 }
 
 .feature h3 {
@@ -327,6 +335,7 @@ header .mobile {
   .feature .content {
     margin: 2rem 0;
     font-size: 1.8rem;
+    height: auto;
   }
 
   .feature h3 {
@@ -362,6 +371,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -387,7 +397,6 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
-    display: flex;
   }
 
   #filters-section .extra {
@@ -401,11 +410,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
